@@ -81,7 +81,7 @@ while True:
             weakest_index=student_marks.index(lowest)
 
             print("\n========== Class Statistics ==========")
-            print(f"Total Students:{len[student_name]}")
+            print(f"Total Students:{len(student_name)}")
             print(f"Average Marks:{average:.2f}")
             print(f"Highest Marks:{highest} (Student: {student_name[topper_index]})")
             print(f"Lowest Marks:{lowest} (Student: {student_name[weakest_index]})")
